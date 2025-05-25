@@ -12,20 +12,29 @@ https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classific
 # Metrikler
 
 Makinemi sensörlerden gelen sıcaklık, tork, hız gibi veriler aracılığıyla hata tahmini için eğittim.
+
 Bir classification problemi olarak targetım makina çalışması sırasında 'hata alacak (1)/ hatasız (0)' sonucunu tahmin etmek üzere kurgulanmıştır. 
+
 Yaptığım train ve test işlemleri sonucunda denediğim modellerde Random Forest en yüksek sonucu verdi ve projemi bu model ile sonlandırdım.
 
+
 Sensör verileri imbalanced olduğunu gözlemledim. 
-Datasetimde hata almayan verilerin sayıca çok olduğu grafiklerden akunuyordu. 
+
+Datasetimde hata almayan verilerin sayıca çok olduğu grafiklerden okunuyordu. 
+
 SMOTE kütüphanesini kullanarak verileri dengelemeye çalıştım fakat hata ile karşılaştım. Proje bitirme gününe denk geldiğim için bu şekilde sunma kararı aldım. 
+
 Sunduğum projemde verisetim Confix matriksinde de görüldüğü gibi TP iyi eğitilmiştir.  
 
 
 # Sonuç ve Gelecek Çalışmalar
 
-Bundan sonra yapılacaklar görevlerim,
-Dataset balance
-Arayüz olarak dashboard hazrılamak,
+Bundan sonra yapılacaklar,
+
+Dataset balance,
+
+Arayüz olarak dashboard hazırlamak,
+
 Gerçek bir makina verileri toplayıp proje denemek.
 
 
